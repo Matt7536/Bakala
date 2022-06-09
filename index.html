@@ -17,6 +17,10 @@
             text-align: center;
             color: dimgray;
         }
+
+        .card {
+            margin: 15px 0;
+        }
     </style>
 </head>
 
@@ -32,7 +36,37 @@
     </header>
 
     <main>
+        <!-- title -->
+        <h1 class="h1">
+            Products in Store
+            <span id="total-products"></span>
+        </h1>
 
+        <!-- filter bar -->
+        <div id="filter-bar">
+            <form action="">
+                <input type="text" name="search">
+                <select name="sort" id="sort-field">
+                    <option value="asc">A-Z</option>
+                    <option value="desc">Z-A</option>
+                </select>
+            </form>
+        </div>
+
+        <!-- products area -->
+        <!-- <div class="card" style="width: 18rem;">
+            <img src="https://cdn.pixabay.com/photo/2016/03/05/19/24/cheese-1238395_960_720.jpg" class="card-img-top"
+                alt="Yellow Vegan Chease">
+            <div class="card-body">
+                <h5 class="card-title">Yellow Chease Bulk</h5>
+                <p class="card-text">5.90$</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+            </div>
+        </div> -->
+
+        <div id="products-container" class="card-group">
+
+        </div>
     </main>
 
     <footer>
