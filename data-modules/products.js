@@ -54,7 +54,12 @@ class Product {
 ///////////////////////////////////////////////////  מערך מוצרים  //////////////////////////////////////////////////////
 const products = [
 
-new Product (12, 'Chedder', '/chedder.jpg', '350gr of something')
+new Product (9, 'Chedder', '/chedder.jpg', '350gr of something'),
+new Product (5, 'Yellow Cheese', '/yellow cheese.jpg', '350gr of something'),
+new Product (7, 'Mozzarella', '/mozzarella.jpg', '350gr of something'),
+new Product (10, 'Parmesan', '/parmesan.jpg', '350gr of something'),
+new Product (11, 'Roquefort', '/roquefort.jpg', '350gr of something'),
+new Product (5.5, 'Cream Cheese', '/cream cheese.jpg', '350gr of something')
 
 /* {
     id: generateId(),
